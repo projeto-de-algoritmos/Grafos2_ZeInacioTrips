@@ -3,13 +3,12 @@ import React, { useEffect, useState } from 'react';
 import BrMap from './map/brMap';
 import { Container, Map, MapContainer } from './styles';
 import Navbar from './components/Navbar';
-import { useRef } from 'react';
 import TypingText from './components/Message';
 import Graph from './graph/Graph';
 import ReasultModal from './components/ResultModal';
 
 import Home from './components/Home';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {Routes, Route } from 'react-router-dom';
 import About from './components/About';
 
 
@@ -71,13 +70,11 @@ const App = () => {
       <Route path="/sobre" element={<About/>}/>
       <Route path="/dijkstra" element={
         <MapContainer>
-          <TypingText message='Escolha dois estados que o algoritmo de Dijkstra apresentará o melhor caminho para o Zé Inácio! '  shouldDelete={true}  />
-          <Map>
-            <VectorMap {...BrMap} layerProps={layerProps} checkedLayers={[starting, destiny]} />
-          </Map>
-
-          
-        </MapContainer>
+       <Map>
+         <TypingText message='Escolha dois estados que o algoritmo de Dijkstra apresentará o melhor caminho para o Zé Inácio! '  shouldDelete={true}  />
+       <VectorMap {...BrMap} layerProps={layerProps} checkedLayers={[starting, destiny]} />
+     </Map>
+      </MapContainer>
       } />
     </Routes>
   </Container>
