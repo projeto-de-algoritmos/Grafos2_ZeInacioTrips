@@ -55,7 +55,7 @@ Após a instalação bem-sucedida das dependências, você está pronto para exe
 yarn start
 ```
 ## Outros 
-Para uma melhor contextualização, recomendamos a leitura do texto na página. Na página específica, você encontrará a opinião dos estudantes sobre o desenvolvimento do projeto, bem como informações esclarecedoras sobre o personagem José Inácio. A aplicação foi cuidadosamente desenvolvida, resultando em uma apresentação visualmente agradável. Aproveite a experiência e agradecemos por avaliar o nosso projeto,camarada. :wink: :handshake: 
+Para uma melhor contextualização, recomendamos a leitura do texto na página Inicio. Na página Sobre, você encontrará a opinião dos estudantes sobre o desenvolvimento do projeto, bem como informações esclarecedoras sobre o personagem José Inácio. A aplicação foi cuidadosamente desenvolvida, resultando em uma apresentação visualmente agradável. Aproveite a experiência e agradecemos por avaliar o nosso projeto,camarada. :wink: :handshake: 
 
 
 
