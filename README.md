@@ -1,5 +1,5 @@
 # ZeInacioTrips
-
+![img](./src/assets/montagem1.jpeg)
 **Número da Lista**: X<br>
 **Conteúdo da Disciplina**: Grafos 2<br>
 
